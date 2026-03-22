@@ -1,0 +1,111 @@
+Answer - 2.1
+[
+  {
+    "_id": "PROD_E001",
+    "category": "Electronics",
+    "name": "Sony WH-1000XM5 Wireless Headphones",
+    "brand": "Sony",
+    "price": 29999,
+    "currency": "INR",
+    "in_stock": true,
+    "stock_quantity": 45,
+    "specifications": {
+      "battery_life_hours": 30,
+      "connectivity": ["Bluetooth 5.2", "3.5mm Jack", "USB-C"],
+      "noise_cancellation": true,
+      "weight_grams": 250,
+      "color_options": ["Black", "Silver", "Midnight Blue"]
+    },
+    "warranty": {
+      "duration_years": 1,
+      "type": "Manufacturer Warranty",
+      "covers": ["Manufacturing defects", "Hardware failure"]
+    },
+    "voltage_specs": {
+      "input_voltage": "5V",
+      "charging_standard": "USB-C PD",
+      "compatible_regions": ["India", "USA", "EU"]
+    },
+    "ratings": {
+      "average": 4.7,
+      "total_reviews": 2340
+    },
+    "tags": ["wireless", "noise-cancelling", "premium", "audio"],
+    "added_date": "2024-01-15"
+  },
+
+  {
+    "_id": "PROD_C001",
+    "category": "Clothing",
+    "name": "Men's Slim Fit Cotton Formal Shirt",
+    "brand": "Raymond",
+    "price": 1499,
+    "currency": "INR",
+    "in_stock": true,
+    "stock_quantity": 120,
+    "specifications": {
+      "fabric": "100% Cotton",
+      "fit_type": "Slim Fit",
+      "sleeve": "Full Sleeve",
+      "occasion": ["Formal", "Business", "Office"],
+      "care_instructions": ["Machine wash cold", "Do not bleach", "Tumble dry low", "Iron on medium heat"]
+    },
+    "sizes_available": [
+      { "size": "S",  "chest_inches": 36, "units_left": 20 },
+      { "size": "M",  "chest_inches": 38, "units_left": 45 },
+      { "size": "L",  "chest_inches": 40, "units_left": 35 },
+      { "size": "XL", "chest_inches": 42, "units_left": 20 }
+    ],
+    "color_variants": [
+      { "color": "White", "hex_code": "#FFFFFF", "available": true },
+      { "color": "Light Blue", "hex_code": "#ADD8E6", "available": true },
+      { "color": "Grey", "hex_code": "#808080", "available": false }
+    ],
+    "ratings": {
+      "average": 4.3,
+      "total_reviews": 875
+    },
+    "tags": ["formal", "cotton", "slim-fit", "office-wear"],
+    "added_date": "2024-02-10"
+  },
+
+  {
+    "_id": "PROD_G001",
+    "category": "Groceries",
+    "name": "Organic Whole Wheat Atta",
+    "brand": "Aashirvaad",
+    "price": 349,
+    "currency": "INR",
+    "in_stock": true,
+    "stock_quantity": 300,
+    "specifications": {
+      "weight_kg": 5,
+      "organic_certified": true,
+      "certifications": ["FSSAI", "India Organic", "Non-GMO"],
+      "ingredients": ["100% Whole Wheat"],
+      "allergens": ["Gluten"]
+    },
+    "nutritional_info": {
+      "per_100g": {
+        "calories_kcal": 340,
+        "protein_g": 12,
+        "carbohydrates_g": 70,
+        "fiber_g": 11,
+        "fat_g": 2,
+        "sodium_mg": 2
+      }
+    },
+    "expiry_details": {
+      "manufactured_date": "2024-11-01",
+      "expiry_date": "2025-10-31",
+      "shelf_life_months": 12,
+      "storage_instructions": "Store in a cool, dry place. Keep away from moisture."
+    },
+    "ratings": {
+      "average": 4.5,
+      "total_reviews": 5620
+    },
+    "tags": ["organic", "whole-wheat", "healthy", "staple"],
+    "added_date": "2024-11-05"
+  }
+]
